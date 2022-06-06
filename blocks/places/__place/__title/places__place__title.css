@@ -1,0 +1,4 @@
+.places__place__title {
+    color: white;
+    grid-area: title;
+}

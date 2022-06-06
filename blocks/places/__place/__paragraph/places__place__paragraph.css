@@ -1,0 +1,4 @@
+.places__place__paragraphs {
+    grid-area: paragraphs;
+    color: white;
+}

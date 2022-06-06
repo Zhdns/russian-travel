@@ -1,0 +1,9 @@
+.places__place {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 450px 1fr;
+    max-width: 984px;
+    grid-template-areas: 
+    "title website"
+    "image paragraphs";
+}
