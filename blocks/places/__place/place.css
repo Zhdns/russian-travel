@@ -1,9 +1,38 @@
 .places__place {
-    margin: auto;
+    margin: 80px auto 0 auto;
     display: grid;
-    grid-template-columns: 450px 1fr;
+    row-gap: 40px;
+    column-gap: 48px;
+    grid-template-columns: 40% 50%;
     max-width: 984px;
-    grid-template-areas: 
+    /*grid-template-areas: 
     "title website"
-    "image paragraphs";
+    "image paragraphs";*/
+    grid-auto-rows: auto;
+    box-sizing: border-box;
+    padding: 0 20px 0;
+}
+
+.places__place: :nth-child(1n) {
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .places__place {
+        column-gap: 32px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .places__place {
+        column-gap: 28px;
+        
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .places__place {
+        grid-template-columns: 100%;
+        row-gap: 32px;
+    }
 }

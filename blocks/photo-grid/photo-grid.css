@@ -5,10 +5,11 @@
     gap: 16px;
     place-items: center;
     max-width: 1184px;
-    width: 90%;
+    padding: 0 20px 0;
+    box-sizing: border-box;
 }
 
-@media screen and (max-width:1250px ) {
+@media screen and (max-width:1200px ) {
     .photo-grid {
         grid-template-columns: repeat(3, 33%);
         gap: 14px;
@@ -17,7 +18,7 @@
 }
 
 
-@media screen and (max-width:980px ) {
+@media screen and (max-width:850px ) {
     .photo-grid {
         grid-template-columns: repeat(2, 50%);
         gap: 16px;
@@ -25,7 +26,7 @@
     }    
 }
 
-@media screen and (max-width:750px ) {
+@media screen and (max-width: 480px ) {
     .photo-grid {
         grid-template-columns: repeat(1, 100%);
         gap: 16px;

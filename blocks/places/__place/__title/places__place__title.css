@@ -1,4 +1,22 @@
 .places__place__title {
     color: white;
-    grid-area: title;
+    /*grid-area: title;*/
+    font-size: 4.5rem;
+    line-height: 1.05;
+    font-weight: 900;
+    align-self: end;
+    margin: 0;
+}
+
+@media screen and (max-width: 850px) {
+    .places__place__title {
+        font-size: 2.8rem;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .places__place__title {
+        font-size: 2rem;
+        margin: 0 0 0 16px;
+    }
 }

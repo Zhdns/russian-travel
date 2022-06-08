@@ -1,3 +1,5 @@
 .places__place__image {
-    grid-area: image;
+    /*grid-area: image;*/
+    object-fit: contain;
+    justify-self: stretch;
 }
