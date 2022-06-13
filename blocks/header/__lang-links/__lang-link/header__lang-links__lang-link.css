@@ -1,15 +1,23 @@
 .header__lang-link {
-    color: white;
+    /*style*/
+    color: var(--textColor);
     text-decoration: none;
-    margin: 0 0 0 18px;
-    font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     line-height: 1.1;
+    font-weight: 400;
+
+    /*indention and sizing*/
+    margin: 0 0 0 18px;
+}
+
+
+.header__lang-link:nth-child(1) {
+    margin: 0;
 }
 
 @media screen and (max-width: 750px) {
     .header__lang-link {
-        font-size: 1.1rem;
+        font-size: 1.1em;
     } 
 }
 

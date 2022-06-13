@@ -1,7 +1,22 @@
 .lead__byline {
+    /*style*/
     color: white;
-    font-size: 0.6rem;
+    font-size: 0.625em;
     line-height: 1.6;
     font-weight: 400;
-    margin: 0;
+
+    /*indentation and sizштп*/
+    margin: 8px 0 0;
+}
+
+@media screen and (max-width: 896px) {
+    .lead__byline {
+        margin: 8px 0 0 24px;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .lead__byline {
+        margin: 8px 0 0 18px;
+    }
 }

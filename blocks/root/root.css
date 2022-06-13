@@ -1,0 +1,28 @@
+.root {
+    /*style*/
+    background-color: #2A2C2F;;
+    font-family: "inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    /*indentation and sizing*/
+    min-height: 320px;
+    max-width: 1280px;
+    margin: 0 auto;
+    min-height: 100vh;
+
+    /*page-proofs*/
+    box-sizing: border-box;
+}
+
+:root {
+    --basicMargin: 0 auto 92px;
+    --margin896px: 0 auto 88px;
+    --margin544px: 0 auto 64px;
+    --maxWidth: calc(100vw - (48px * 2));
+    --maxWidth896px: calc(100vw - (24px * 2));
+    --maxWidth544px: calc(100% - (16px * 2));
+    --textColor: #FFFFFF;
+    --transitionTime: 1.5s ease-in-out;
+}

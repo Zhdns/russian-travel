@@ -1,7 +1,18 @@
 .places {
-    margin: 92px auto;
+    /*indentetion and sizing*/
+    margin: var(--basicMargin);
 }
 
-@media screen and (max-width: ) {
+@media screen and (max-width: 896px) {
+    .places {
+        margin: var(--margin896px);
+    }
+    
+}
+
+@media screen and (max-width: 544px) {
+    .places {
+        margin: var(--margin544px);
+    }
     
 }

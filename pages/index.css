@@ -1,6 +1,6 @@
 @import url(../Vendor/normalize.css);
 @import url(../Fonts/interWeb/inter.css);
-@import url(../blocks/root/page.css);
+@import url(../blocks/root/root.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-links/__lang-link/header__lang-links__lang-link.css);
@@ -34,3 +34,15 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link/footer__link.css);
+
+
+
+
+
+
+
+
+
+
+
+

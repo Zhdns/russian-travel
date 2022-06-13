@@ -1,4 +1,23 @@
 .lead { 
-    margin: 56px auto 0 auto;
+    /*indention and sizing*/
+    margin: var(--basicMargin);
     max-width: 990px;
+    padding: 0 48px 0;
+}
+
+
+
+@media screen and (max-width: 896px) {
+    .lead {
+        margin: var(--margin896px);
+        padding: 0;
+    }
+    
+}
+
+@media screen and (max-width: 544px) {
+    .lead {
+        margin: var(--margin544px);
+    }
+    
 }
