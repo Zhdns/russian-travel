@@ -1,4 +1,4 @@
-.places__place__paragraphs {
+.places__paragraphs {
     /*page-proof*/
     grid-area: paragraphs;
 
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 544px) {
-    .places__place__paragraphs {
+    .places__paragraphs {
         margin: 0 16px;
     }
 }

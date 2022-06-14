@@ -1,0 +1,17 @@
+.places__image {
+    /*page-proofs*/
+    grid-area: image;
+    object-fit: contain;
+
+    /*indentation and sizing*/
+    margin: 0 auto;
+    max-width: 460px;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 544px) {
+    .places__image {
+        justify-self: stretch;
+    }
+}

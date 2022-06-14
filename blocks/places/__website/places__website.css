@@ -1,4 +1,4 @@
-.places__place__website {
+.places__website {
     /*page-proofs*/
     grid-area: website;
     align-self: end;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 544px) {
-    .places__place__website {
+    .places__website {
         margin: 0 0 0 16px;
     }
 }

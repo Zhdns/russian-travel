@@ -1,4 +1,4 @@
-.places__place__paragraphs__paragraph {
+.places__paragraph {
     /*style*/
     color: var(--textColor);
     font-size: 1.1em;
@@ -9,12 +9,12 @@
     margin: 0 0 26px 0;
 }
 
-.places__place__paragraphs__paragraph::nth-last-child() {
+.places__paragraph::nth-last-child() {
     margin: 0;
 }
 
 @media screen and (max-width: 896px) {
-    .places__place__paragraphs__paragraph {
+    .places__paragraph {
         font-size: 1em;
     }
 }
