@@ -1,6 +1,6 @@
 .root {
     /*style*/
-    background-color: #2A2C2F;;
+    background-color: #2A2C2F;
     font-family: "inter", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-size: 16px;
@@ -8,7 +8,7 @@
     -moz-osx-font-smoothing: grayscale;
 
     /*indentation and sizing*/
-    min-height: 320px;
+    min-width: 320px;
     max-width: 1280px;
     margin: 0 auto;
     min-height: 100vh;
