@@ -1,6 +1,6 @@
 .places__place__website__link {
     /*style*/
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
     font-size: 1.125rem;
     line-height: 1.2;
