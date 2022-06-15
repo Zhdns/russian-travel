@@ -32,11 +32,11 @@
         column-gap: 28px;
         grid-template-columns: 340px minmax(min-content, max-content);
         max-width: var(--maxWidth896px);
-        margin: 0 auto 47px;
+        margin: 0 auto 72px;
     }
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 700px) {
     .places__place {
         row-gap: 32px;
         grid-template-areas: 
@@ -45,6 +45,6 @@
         "image"
         "paragraphs";
         grid-template-columns: minmax(min-content, max-content);
-        margin: 0 auto 31px;
+        margin: 0 auto 60px;
     }
 }

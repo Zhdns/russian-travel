@@ -13,7 +13,7 @@
     text-align: center;
     
 }
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 715px) {
     .lead__title {
         font-size: 2.5em;
         max-width: 288px;

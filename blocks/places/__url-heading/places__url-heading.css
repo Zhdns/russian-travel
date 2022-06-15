@@ -1,9 +1,10 @@
 .places__url-heading {
     /*style*/
-    color: #AAAAAA;
-    font-size: 0.75rem;
+    color: #AAAAAA;;
+    font-size: 0.75em;
     font-weight: 400;
     line-height: 1;
+    letter-spacing: 2px;
 
     /*indentation and sizing*/
     margin: 0 0 12px 0;

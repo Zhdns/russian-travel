@@ -9,14 +9,14 @@
 
 @media screen and (max-width: 896px) {
     .places {
-        margin: 0 auto 62px;
+        margin: 0 auto 80px;
     }
     
 }
 
 @media screen and (max-width: 544px) {
     .places {
-        margin: 0 auto 50px;
+        margin: 0 auto 67px;
     }
     
 }

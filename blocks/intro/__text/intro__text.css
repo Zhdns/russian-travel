@@ -10,8 +10,16 @@
     margin: 40px 0 33px;
 }
 
-@media screen and (max-width: 750px) {
-    .intro__title {
-        font-size: 2em;
+/*@media screen and (max-width: 896px) {
+    .intro__text {
+        max-width: var(--maxWidth896px);
+        margin: 40px 24px 33px 0;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .intro__text {
+        max-width: var(--maxWidth544px);
+        margin: 40px 16px 33px 0;
     }
 }
